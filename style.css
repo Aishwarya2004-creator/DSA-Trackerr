@@ -1,0 +1,80 @@
+/* Basic reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body{
+    background: #180909 !important;
+}
+
+.login-wrapper {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px; /* Adjust width as needed */
+    padding: 20px;
+    text-align: center;
+    background: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    color: #ffcc00; /* Bright color for the project name */
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #333;
+    border: 1px solid #555;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #5c67f2; /* Default button color */
+    border: none;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.google-login {
+    background-color: #db4a39; /* Google login button color */
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.message {
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+.message a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.message a:hover {
+    text-decoration: underline;
+}
